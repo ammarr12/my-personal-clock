@@ -1,3 +1,4 @@
+#importing improtant libraries
 from tkinter import *
 from tkinter.ttk import *
 
@@ -6,6 +7,7 @@ from time import strftime
 root = Tk()
 root.title("my personal clock")
 
+# defining the actual func
 def time():
     string = strftime('%H:%M:%S %p')
     label.config(text=string)
